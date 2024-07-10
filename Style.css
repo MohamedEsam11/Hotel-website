@@ -1,0 +1,106 @@
+
+#h1{
+    color: gray;
+}
+#h2{
+    color:yellowgreen;
+}
+p{
+    color:rgb(17, 27, 18);
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgb(126, 116, 187);
+    border-color: rgb(129, 14, 14);
+    width:150px ;
+    height: 30px;
+    font-size: 150%;
+}
+header,footer{
+    position:absolute;
+    background-color: rgb(7, 0, 12);
+    width:99%;
+    color: rgb(235, 229, 234);
+    border-radius: 22px;
+    left:-1px;
+}
+header h2{
+    position:absolute;
+    left:50%;
+
+}
+header{
+height: 82px;;
+font-size: 130%;
+margin-bottom: 0px;
+margin-top: -99px;
+}
+footer{
+  height: 20vh; 
+  font-size: 180%; 
+}
+footer h2{
+    position: absolute;
+    left: 45%;
+    }
+.KMK{
+position: absolute;
+width: 70%;
+left:50px;
+}
+.KMK a{
+position: relative;
+left: 20%;
+top: 20px;
+color: rgb(244, 247, 242);
+text-decoration: none;
+margin-right: 30px;
+font-size: 200%;
+height: inherit;
+}
+footer h3{
+    color: red;
+}
+.neon{
+    position: relative;
+    color: rgb(244, 247, 242);
+text-decoration: none;
+margin-right: 30px;
+font-size: 200%;
+}
+.me{
+    border: 2px;
+    padding: 10px;
+    text-align: center;
+}
+.me  form{
+background: none;
+border-radius: 10px;
+padding: 10px;
+}
+.me  input {
+    width: 30%;
+    height: 40px;
+    text-align:center;
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.me textarea{
+    width: 80%;
+    resize: none;
+    min-height: 200px;
+}
+ .me input[tybe="submit"]:hover{
+    background: aqua;
+    color: beige;
+    font-weight: bold;
+    font-size: 35px;
+    cursor: pointer;
+    background-attachment: fixed;
+}
+label{
+    display: block;
+}
+
+
+
